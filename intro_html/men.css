@@ -1,0 +1,48 @@
+*{
+    background-color: burlywood;
+}
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.navbag{
+    background-color:burlywood;
+    height: 70px;
+}
+
+.navbar .nav-link{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.container-fluid a {
+    margin-left: 20px;
+}
+
+.navbar .collapse {
+    /* margin-left: 200px; */
+}
+
+.d-flex {
+    margin-right: 30px;
+}
+
+.run {
+    margin-top: 5px;
+    display: flex;
+}
+
+.run .runn a {
+    border: none;
+    background: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.runn i {
+    color: black;
+    font-size: 24px;
+}
+.FS{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}

@@ -1,0 +1,283 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.navbag{
+    background-color:burlywood;
+    height: 70px;
+}
+
+.navbar .nav-link{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.container-fluid a {
+    margin-left: 20px;
+}
+
+.navbar .collapse {
+    /* margin-left: 200px; */
+}
+
+.d-flex {
+    margin-right: 30px;
+}
+
+.run {
+    margin-top: 5px;
+    display: flex;
+}
+
+.run .runn a {
+    border: none;
+    background: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.runn i {
+    color: black;
+    font-size: 24px;
+}
+#feature{
+    background-image: url(./images/WhatsApp\ Image\ 2024-10-19\ at\ 13.25.57_e52aa981.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.m1{
+    color: #947642;
+    font-weight: 900;
+    font-style: oblique;
+    background: linear-gradient(to right, #ff8a00, #947642);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#BTNS-1{ 
+    border-style: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    font: 400;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+}
+#BTNS-1:hover{
+    background-color:black;
+}
+
+#BTNS-1 a {
+    text-decoration: none;
+    color: #947642;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#about{
+    background-color:burlywood;
+}
+
+.FF{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.PARENT{
+    display: flex;
+    justify-content: space-around;
+}
+#collection{background-color: burlywood;}
+.ggg{ font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+}
+#FC{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    position: relative;
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .container img {
+    width: 100%;
+    height: 500px; /* Make the image responsive */
+  }
+  
+  .container .btn {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color:burlywood;
+  }
+  .container .btn a {
+    text-decoration:none ;
+    color: #947642;
+  }
+  .container-1 {
+    position: relative;
+    width: 50%; /* Adjust the width as needed */
+    display: block;
+  }
+  
+  .container-1 img {
+    width: 650px;
+    height: 750px; /* Make the image responsive */
+  }
+  .btn-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  .container-1 .btn-1:hover {
+    background-color:burlywood;
+  }
+  .container-1 .btn-1 a {
+    text-decoration:none ;
+    color: #947642;
+  }
+  .grand2{
+    display: flex;
+  }
+  .container-2 img {
+    width: 608px;
+    height: 750px; /* Make the image responsive */
+  }
+  .container-2 {
+    position: relative;
+    width: 450px;
+    height: 550px;
+}
+
+.btn-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-2 a {
+    color: #947642;
+    text-decoration: none;
+}
+.container-2 .btn-2:hover {
+    background-color:burlywood;
+  }
+
+.footer {
+    background-color:  black;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .social ul {
+    display: flex;
+}
+
+.footer-section .social ul li {
+    margin-right: 10px;
+}
+
+.footer-section .newsletter form {
+    display: flex;
+}
+
+.footer-section .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.footer-section .newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #f90;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
